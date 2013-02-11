@@ -3,16 +3,16 @@ class PageObjectBase < Delegator
 
   def initialize(page=Capybara.current_session)
     super
-    @delegate_sd_obj = page
+    @page = page
   end
 
   def __getobj__
-    @delegate_sd_obj # return object we are delegating to, required
+    @page
   end
 
-  def __setobj__(obj)
-    @delegate_sd_obj = obj # change delegation object,
-                           # a feature we're providing
+  def __setobj__(page)
+    @page = page
+
   end
 
   def flash

@@ -7,16 +7,15 @@ class ElementObject < Delegator
 
   def initialize(page=nil)
     element = page || Capybara.current_session.find(@@selector)
-    super(element)                  # pass obj to Delegator constructor, required
-    @delegate_sd_obj = element # store obj for future use
+    super(element)
+    @element = element
   end
 
   def __getobj__
-    @delegate_sd_obj # return object we are delegating to, required
+    @element
   end
 
   def __setobj__(obj)
-    @delegate_sd_obj = obj # change delegation object,
-                           # a feature we're providing
+    @element = obj
   end
 end
