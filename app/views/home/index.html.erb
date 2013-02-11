@@ -1,0 +1,13 @@
+<% if flash[:alert] %>
+    <p class="flash flash-error"><%= flash[:alert] %></p>
+<% end %>
+<% if flash[:notice] %>
+    <p class="flash flash-notice"><%= flash[:notice] %></p>
+<% end %>
+<%= yield %>
+
+<h1>Home#index</h1>
+<h2>Welcome to the page object show!</h2>
+<h2 id="email">You are signed in as <%= current_user.email %></h2>
+
+<%= link_to("Logout", destroy_user_session_path, method: :delete) %>
