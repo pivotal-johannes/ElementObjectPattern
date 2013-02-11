@@ -6,7 +6,11 @@ describe "working with tasks", type: :feature do
     User.destroy_all
   end
 
-  it "allows a logged in user to create tasks", js: true do
+  after do
+    Task.destroy_all
+  end
+
+  it "allows a logged in user to create tasks" do
     tasks_page = LoginPage.default_login.navigate("Tasks")
 
     created_task_page = tasks_page.create_task(
@@ -18,7 +22,7 @@ describe "working with tasks", type: :feature do
     expect(created_task_page).to have_content("The task description")
   end
 
-  it "allows a user to delete a task from the tasks view", js: :true do
+  it "allows a user to delete a task from the tasks view" do
     home_page = LoginPage.default_login
 
     first_task_page = home_page.navigate("Tasks").create_task(

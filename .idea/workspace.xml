@@ -9,7 +9,7 @@
     <file path="/feature_helper.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360553864291" ignored="false" />
     <file path="/login_page.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360552938970" ignored="false" />
     <file path="/page_object.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360553544176" ignored="false" />
-    <file path="/login_spec.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360552917399" ignored="false" />
+    <file path="/login_spec.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360557732313" ignored="false" />
     <file path="/routes.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360545409165" ignored="false" />
     <file path="/index.html.erb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360556116303" ignored="false" />
     <file path="/dummy.xml" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360545727561" ignored="false" />
@@ -20,12 +20,13 @@
     <file path="/flash.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360555235709" ignored="false" />
     <file path="/fragment.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360548551515" ignored="false" />
     <file path="/element_object.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360556055794" ignored="false" />
-    <file path="/tasks_spec.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360556553829" ignored="false" />
+    <file path="/tasks_spec.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360557747660" ignored="false" />
     <file path="/logged_in_page.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360554171177" ignored="false" />
     <file path="/tasks_page.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360556395390" ignored="false" />
     <file path="/task_page.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360554975948" ignored="false" />
     <file path="/show.html.erb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360555905228" ignored="false" />
     <file path="/application.html.erb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360556428673" ignored="false" />
+    <file path="/home_controller_spec.rb" changelist="fcacf8b3-2f3b-4105-a4d7-ee607ac16d44" time="1360557767866" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +85,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/login_spec.rb">
+      <file leaf-file-name="tasks_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="-0.39568347">
+            <state line="24" column="58" selection-start="605" selection-end="605" vertical-scroll-proportion="0.5755396">
               <folding />
             </state>
           </provider>
@@ -103,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/features/login_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/feature_helper.rb" />
         <option value="$PROJECT_DIR$/spec/features/page_objects/logged_in_page.rb" />
         <option value="$PROJECT_DIR$/spec/features/page_objects/flash.rb" />
         <option value="$PROJECT_DIR$/spec/features/page_objects/login_page.rb" />
@@ -118,6 +117,8 @@
         <option value="$PROJECT_DIR$/app/views/tasks/index.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/page_objects/tasks_page.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/spec/features/login_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/tasks_spec.rb" />
       </list>
     </option>
@@ -1379,20 +1380,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.5755396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/page_objects/page_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.21582733">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/page_objects/registration_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="16" selection-start="319" selection-end="319" vertical-scroll-proportion="0.35971224">
@@ -1474,6 +1461,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.035971224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/login_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.21582733">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.43165466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/page_objects/tasks_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="6" selection-start="285" selection-end="285" vertical-scroll-proportion="0.39568347">
@@ -1483,14 +1491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="653" selection-end="653" vertical-scroll-proportion="0.82733816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/login_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="-0.39568347">
+        <state line="24" column="58" selection-start="605" selection-end="605" vertical-scroll-proportion="0.5755396">
           <folding />
         </state>
       </provider>
